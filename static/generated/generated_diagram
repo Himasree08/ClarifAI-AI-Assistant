@@ -1,0 +1,26 @@
+// Diagram
+digraph {
+	0 [label="Processor:**"]
+	1 [label="Memory:**"]
+	0 -> 1
+	2 [label="Input/Output (I/O) Devices:**"]
+	1 -> 2
+	3 [label="Buses:**"]
+	2 -> 3
+	4 [label="Monitors and Printers:**"]
+	3 -> 4
+	5 [label="Operating System (OS):**"]
+	4 -> 5
+	6 [label="Applications:**"]
+	5 -> 6
+	7 [label="Middleware:**"]
+	6 -> 7
+	8 [label="Security:**"]
+	7 -> 8
+	9 [label="Network Interface Card (NIC):**"]
+	8 -> 9
+	10 [label="Graphics Card:**"]
+	9 -> 10
+	11 [label="Database:**"]
+	10 -> 11
+}
